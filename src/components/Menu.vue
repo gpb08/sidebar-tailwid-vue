@@ -2,7 +2,8 @@
     import { ref } from 'vue'
 
     defineProps({
-        open: Boolean
+        open: Boolean,
+        search: String,
     })
 
     const menus = ref([
